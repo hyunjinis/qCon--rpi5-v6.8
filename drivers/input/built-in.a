@@ -1,0 +1,20 @@
+!<thin>
+//                                              114       `
+input.o/
+input-compat.o/
+input-mt.o/
+input-poller.o/
+ff-core.o/
+touchscreen.o/
+input-leds.o/
+mousedev.o/
+evdev.o/
+/0              0           0     0     644     60912     `
+/9              0           0     0     644     3928      `
+/25             0           0     0     644     8936      `
+/37             0           0     0     644     8264      `
+/53             0           0     0     644     6720      `
+/64             0           0     0     644     6272      `
+/79             0           0     0     644     8264      `
+/93             0           0     0     644     23992     `
+/105            0           0     0     644     25096     `

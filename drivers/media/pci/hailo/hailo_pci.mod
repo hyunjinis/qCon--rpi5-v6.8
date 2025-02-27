@@ -1,0 +1,13 @@
+drivers/media/pci/hailo/src/pcie.o
+drivers/media/pci/hailo/src/fops.o
+drivers/media/pci/hailo/src/utils.o
+drivers/media/pci/hailo/src/sysfs.o
+drivers/media/pci/hailo/common/fw_validation.o
+drivers/media/pci/hailo/common/fw_operation.o
+drivers/media/pci/hailo/common/pcie_common.o
+drivers/media/pci/hailo/common/vdma_common.o
+drivers/media/pci/hailo/common/hailo_resource.o
+drivers/media/pci/hailo/utils/logs.o
+drivers/media/pci/hailo/vdma/vdma.o
+drivers/media/pci/hailo/vdma/memory.o
+drivers/media/pci/hailo/vdma/ioctl.o

@@ -1,0 +1,10 @@
+!<thin>
+//                                              86        `
+power_supply_core.o/
+power_supply_sysfs.o/
+power_supply_leds.o/
+power_supply_hwmon.o/
+/0              0           0     0     644     38696     `
+/21             0           0     0     644     23752     `
+/43             0           0     0     644     4296      `
+/64             0           0     0     644     7592      `

@@ -1,0 +1,81 @@
+!<thin>
+//                                              622       `
+clnt.o/
+xprt.o/
+socklib.o/
+xprtsock.o/
+sched.o/
+auth.o/
+auth_null.o/
+auth_tls.o/
+auth_unix.o/
+svc.o/
+svcsock.o/
+svcauth.o/
+svcauth_unix.o/
+addr.o/
+rpcb_clnt.o/
+timer.o/
+xdr.o/
+sunrpc_syms.o/
+cache.o/
+rpc_pipe.o/
+sysfs.o/
+svc_xprt.o/
+xprtmultipath.o/
+backchannel_rqst.o/
+stats.o/
+sysctl.o/
+auth_gss/auth_gss.o/
+auth_gss/gss_generic_token.o/
+auth_gss/gss_mech_switch.o/
+auth_gss/svcauth_gss.o/
+auth_gss/gss_rpc_upcall.o/
+auth_gss/gss_rpc_xdr.o/
+auth_gss/trace.o/
+auth_gss/gss_krb5_mech.o/
+auth_gss/gss_krb5_seal.o/
+auth_gss/gss_krb5_unseal.o/
+auth_gss/gss_krb5_wrap.o/
+auth_gss/gss_krb5_crypto.o/
+auth_gss/gss_krb5_keys.o/
+
+/0              0           0     0     644     83568     `
+/8              0           0     0     644     53088     `
+/16             0           0     0     644     5632      `
+/27             0           0     0     644     72256     `
+/39             0           0     0     644     425528    `
+/48             0           0     0     644     22040     `
+/56             0           0     0     644     4848      `
+/69             0           0     0     644     6376      `
+/81             0           0     0     644     7664      `
+/94             0           0     0     644     35080     `
+/101            0           0     0     644     41400     `
+/112            0           0     0     644     7912      `
+/123            0           0     0     644     28272     `
+/139            0           0     0     644     6568      `
+/147            0           0     0     644     19824     `
+/160            0           0     0     644     2720      `
+/169            0           0     0     644     39664     `
+/176            0           0     0     644     7376      `
+/191            0           0     0     644     46736     `
+/200            0           0     0     644     39416     `
+/212            0           0     0     644     17632     `
+/221            0           0     0     644     42968     `
+/233            0           0     0     644     10992     `
+/250            0           0     0     644     8264      `
+/270            0           0     0     644     12360     `
+/279            0           0     0     644     2352      `
+/289            0           0     0     644     59744     `
+/310            0           0     0     644     3536      `
+/340            0           0     0     644     11264     `
+/368            0           0     0     644     46032     `
+/392            0           0     0     644     9712      `
+/419            0           0     0     644     8872      `
+/443            0           0     0     644     105856    `
+/461            0           0     0     644     11776     `
+/487            0           0     0     644     2280      `
+/513            0           0     0     644     2064      `
+/541            0           0     0     644     4344      `
+/567            0           0     0     644     15312     `
+/595            0           0     0     644     5968      `

@@ -1,0 +1,20 @@
+!<thin>
+//                                              140       `
+core.o/
+pinctrl-utils.o/
+pinmux.o/
+pinconf.o/
+pinconf-generic.o/
+devicetree.o/
+pinctrl-rp1.o/
+bcm/pinctrl-bcm2712.o/
+bcm/pinctrl-bcm2835.o/
+/0              0           0     0     644     50192     `
+/8              0           0     0     644     5208      `
+/25             0           0     0     644     18136     `
+/35             0           0     0     644     10096     `
+/46             0           0     0     644     12784     `
+/65             0           0     0     644     7960      `
+/79             0           0     0     644     32632     `
+/94             0           0     0     644     28096     `
+/117            0           0     0     644     36536     `

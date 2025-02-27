@@ -1,0 +1,26 @@
+!<thin>
+//                                              196       `
+gpiolib.o/
+gpiolib-devres.o/
+gpiolib-legacy.o/
+gpiolib-of.o/
+gpiolib-cdev.o/
+gpiolib-sysfs.o/
+gpiolib-swnode.o/
+gpio-mmio.o/
+gpio-bcm-virt.o/
+gpio-brcmstb.o/
+gpio-raspberrypi-exp.o/
+gpio-stmpe.o/
+/0              0           0     0     644     115984    `
+/11             0           0     0     644     11032     `
+/29             0           0     0     644     4544      `
+/47             0           0     0     644     18928     `
+/61             0           0     0     644     43616     `
+/77             0           0     0     644     20400     `
+/94             0           0     0     644     3376      `
+/112            0           0     0     644     14800     `
+/125            0           0     0     644     9152      `
+/142            0           0     0     644     16656     `
+/158            0           0     0     644     9528      `
+/182            0           0     0     644     14056     `

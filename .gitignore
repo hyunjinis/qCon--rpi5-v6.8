@@ -1,0 +1,16 @@
+*.o
+*.ko
+*.mod.c
+*.tmp
+*.cmd
+modules.builtin
+modules.order
+vmlinux
+
+build/
+out/
+arch/*/boot/
+arch/*/configs/
+
+# Git 메타데이터 제외
+.git/

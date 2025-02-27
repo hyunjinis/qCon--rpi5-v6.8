@@ -1,0 +1,12 @@
+!<thin>
+//                                              86        `
+core.o/
+reset-brcmstb.o/
+reset-brcmstb-rescal.o/
+reset-raspberrypi.o/
+reset-simple.o/
+/0              0           0     0     644     26984     `
+/8              0           0     0     644     6352      `
+/25             0           0     0     644     7088      `
+/49             0           0     0     644     6184      `
+/70             0           0     0     644     8656      `

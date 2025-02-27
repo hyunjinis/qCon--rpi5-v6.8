@@ -1,0 +1,37 @@
+!<thin>
+//                                              304       `
+irqchip.o/
+irq-bcm2835.o/
+irq-bcm2836.o/
+irq-gic.o/
+irq-gic-common.o/
+irq-gic-v2m.o/
+irq-gic-v3.o/
+irq-gic-v3-mbi.o/
+irq-gic-v3-its.o/
+irq-gic-v3-its-platform-msi.o/
+irq-gic-v4.o/
+irq-gic-v3-its-pci-msi.o/
+irq-partition-percpu.o/
+irq-bcm2712-mip.o/
+irq-bcm7038-l1.o/
+irq-bcm7120-l2.o/
+irq-brcmstb-l2.o/
+
+/0              0           0     0     644     3568      `
+/11             0           0     0     644     11368     `
+/26             0           0     0     644     15744     `
+/41             0           0     0     644     34456     `
+/52             0           0     0     644     3832      `
+/70             0           0     0     644     12864     `
+/85             0           0     0     644     46312     `
+/99             0           0     0     644     10744     `
+/117            0           0     0     644     86344     `
+/135            0           0     0     644     6656      `
+/166            0           0     0     644     8568      `
+/180            0           0     0     644     6968      `
+/206            0           0     0     644     8536      `
+/230            0           0     0     644     10464     `
+/249            0           0     0     644     10184     `
+/267            0           0     0     644     11768     `
+/285            0           0     0     644     11488     `
