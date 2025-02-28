@@ -91,7 +91,7 @@ skip:
 	CA->credit_balance = credit_left;
 	credit_left=0;
 out:
-	mod_timer(&CA->account_timer, jiffies + msecs_to_jiffies(100));
+	mod_timer(&CA->account_timer, jiffies + msecs_to_jiffies(1000));
 	return;
 }
 
@@ -352,8 +352,8 @@ static int __init vif_init(void)
 	CA->total_weight = 0;
 	CA->credit_balance = 0;
 	CA->num_vif =0;
-	//INIT_LIST_HEAD(&CA->active_vif_list);
-	//spin_lock_init(&CA->active_vif_list_lock);
+	INIT_LIST_HEAD(&CA->active_vif_list);
+	spin_lock_init(&CA->active_vif_list_lock);
 
 	//make proc directory
 	proc_root_dir = proc_mkdir("oslab", NULL);
@@ -364,11 +364,11 @@ static int __init vif_init(void)
 
 	//need to implement: traverse off_list and add to CA list
 	
-	//list_for_each_entry_safe(vif, next_vif, &off_list, off_list){
-	//	new_vif(vif);
-	//	printk("MINKOO: vif from off_list\n");
-	//	list_del(&vif->off_list);
-	//}	
+	list_for_each_entry_safe(vif, next_vif, &off_list, off_list){
+		new_vif(vif);
+		printk("MINKOO: vif from off_list\n");
+		list_del(&vif->off_list);
+	}	
 	
 	//setting up timer for callback function
 	timer_setup(&CA->account_timer, credit_accounting, cpu );
@@ -388,11 +388,11 @@ static void __exit vif_exit(void)
 
 	//need to implement : traverse CA list and add to off_list
 	list_for_each_entry_safe(vif, next_vif, &active_vif_list, vif_list){
-	//	vif = list_entry(p, struct ancs_container, vif_list);
+		vif = list_entry(p, struct ancs_container, vif_list);
 		printk("MINKOO: delvif%d\n", vif->id);
 		del_vif(vif->p);
-	//	INIT_LIST_HEAD(&vif->off_list);
-	//	list_add(&vif->off_list, &off_list);
+		INIT_LIST_HEAD(&vif->off_list);
+		list_add(&vif->off_list, &off_list);
 	}
 
 	remove_proc_entry("oslab", NULL);
